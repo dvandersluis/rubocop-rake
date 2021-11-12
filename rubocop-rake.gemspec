@@ -30,4 +30,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_runtime_dependency 'rubocop', '~> 1.0'
+  spec.metadata = {
+    'rubygems_mfa_required' => 'true'
+  }
 end
